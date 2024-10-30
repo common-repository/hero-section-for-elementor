@@ -1,0 +1,217 @@
+.infobox {}
+
+/*Banner 1*/
+/* 4. Banner */
+.banner-bg {
+    height: 960px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    z-index: 1;
+}
+.banner-content h6 {
+    font-size: 36px;
+    color: #8cc090;
+    margin-bottom: 0;
+    font-style: italic;
+}
+.banner-content h2 {
+    font-size: 80px;
+    color: #fff;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.banner-content h2 span {
+    color: #8cc090;
+}
+.banner-content p {
+    font-size: 22px;
+    padding-right: 120px;
+    margin-bottom: 20px;
+}
+.sticky-menu .header-btn .btn {
+    color: #8cc090;
+}
+.sticky-menu .header-btn .btn:hover {
+    color: #fff;
+}
+.banner-shape {
+    position: absolute;
+    right: 160px;
+    bottom: 0;
+    z-index:0;
+    opacity: .4;
+}
+.rotateme {
+    -webkit-animation-name: rotateme;
+    animation-name: rotateme;
+    -webkit-animation-duration: 50s;
+    animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+@keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes rotateme {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.banner-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.banner-social ul li:last-child {
+    margin-right: 0;
+}
+.banner-social ul li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 46px;
+    background: transparent;
+    border-radius: 50%;
+    color: #8cc090;
+    font-size: 18px;
+    border: 2px solid #8cc090;
+}
+.banner-social ul li a:hover {
+    background: #8cc090;
+    color: #fff;
+}
+.banner-social {
+    margin-bottom: 40px;
+}
+.btn {
+    -moz-user-select: none;
+    background: transparent none repeat scroll 0 0;
+    border: 2px solid #8cc090;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 18px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    -webkit-transition: border-color 0.3s, color 0.3s;
+    transition: border-color 0.3s, color 0.3s;
+    transition-timing-function: ease, ease;
+    -webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+    box-sizing: border-box;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+/*Style 2*/
+.infobox.style2 {
+    -webkit-box-shadow: 0px 17px 53.94px 4.06px rgba(1, 51, 184, 0.03);
+    box-shadow: 0px 17px 53.94px 4.06px rgba(1, 51, 184, 0.03);
+    background: #fff;
+    border-radius: 10px;
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    padding: 30px;
+}
+
+.infobox.style2 .infobox-icon {
+    margin-bottom: 20px;
+}
+
+.infobox.style2 .infobox-icon i {
+    font-size: 40px;
+    margin-left: 8px;
+}
+
+.infobox.style2 .infobox-content a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.infobox.style2 .infobox-content a i {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    line-height: 33px;
+    margin-left: 15px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+
+/*Style 3*/
+.infobox.style3 {
+    background: #fff;
+    padding: 30px 15px;
+    display: flex;
+}
+
+.infobox.style3 .infobox-icon {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.infobox.style3 .infobox-icon i {
+    font-size: 40px;
+    margin-left: 8px;
+}
+
+.infobox.style3 .infobox-content {
+    width: 80%;
+    padding: 0 10px;
+}
+
+.infobox.style3 .infobox-content p {
+    margin-bottom: 0;
+}
+
+.infobox.style3 .infobox-content a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.infobox.style3 .infobox-content a i {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    line-height: 33px;
+    margin-left: 15px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
